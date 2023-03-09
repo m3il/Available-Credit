@@ -10,7 +10,7 @@ public class Credit{
     System.out.println("Enter the maximum amount of available credit: ");
     maxCredit = in.nextInt();
     System.out.println("Enter the amount of used credit: ");
-    usedCredit = in.nextInt;
+    usedCredit = in.nextInt();
     
     int availableCredit = maxCredit - usedCredit;
     
